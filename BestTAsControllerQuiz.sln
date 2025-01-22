@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestTAsControllerQuiz", "BestTAsControllerQuiz.csproj", "{0641D683-BA77-686B-373A-152852F657D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0641D683-BA77-686B-373A-152852F657D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0641D683-BA77-686B-373A-152852F657D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0641D683-BA77-686B-373A-152852F657D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0641D683-BA77-686B-373A-152852F657D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E9B6589-E828-4466-B103-54189F8C6038}
+	EndGlobalSection
+EndGlobal
