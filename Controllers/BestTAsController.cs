@@ -13,11 +13,25 @@ namespace BestTAsControllerQuiz.Controllers
     public class BestTAsController : ControllerBase
     {
         [HttpGet]
-        [Route("AddTwoNumbers/{num1}/{num2}")]
-        public int AddTwoNumbers (int num1, int num2) 
+        [Route("AddTwoNumbers/{firstNumberString}/{secondNumberString}")]
+        public string AddTwoNumbers (string firstNumberString, string secondNumberString) 
         {
-            int sum = num1 + num2;
-            return sum;
+            int num1;
+            int num2;
+            int sum;
+            bool validFirstNumber = int.TryParse(firstNumberString, out num1);
+            bool validSecondNumber = int.TryParse(secondNumberString, out num2);
+
+            if(validFirstNumber == false || validSecondNumber == false)
+            {
+                return "Invalid Input: Make sure you are typing two integer numbers.";
+            }
+            else
+            {
+                sum = num1 + num2;
+            }
+
+            return $"{sum}";
         }
 
         [HttpGet]
